@@ -1,88 +1,29 @@
-GD3\_LoopHero\_Unreal
-Nom: **Les Aventures de Lulu le lapin**
-===
+>>Les Aventures de Lulu le Lapin
+Un jeu de l'oie narratif pour enfants de 6 ans et plus.
 
-Les Aventures de Lulu le Lapin est un jeu d'aventure narratif de type "jeu de l'oie" destiné aux enfants de 6 ans et plus. Suivez Lulu dans sa quête héroïque pour sauver la forêt de Carottia !
+>>L'histoire
+Lulu est un petit lapin qui vit dans la forêt de Carottia. Une sorcière maléfique a volé toute la récolte 
+de carottes du village pour préparer une potion qui détruira la forêt. Lulu part à l'aventure pour retrouver
+les carottes et sauver son foyer.
 
+Le joueur avance case par case sur un plateau, lance un dé, rencontre des personnages et accomplit des quêtes 
+pour progresser dans l'histoire.
 
+>> Cache-Cache dans la forêt
+Les règles du cache cahce, un décompte pour aller se cacher, l'IA ne bouge pas, puis quand le décompte arrive à 0, 
+l'IA à 30 secondes pour nous trouver
 
-Public Cible:
+In Game:
+- Bugs je ne comprends pas pourquoi ca ne marche pas je suis resté bloqué beaucoup de temps dessus, 
+pour faire fonctionner le coup de poing. (si vous prenez la peine de fouiller j'ai 2 print dans l'AIC et un dans le BP_LoopHero (l'ia)
+- Mon plateau avec des parties qui devaient se reveler au fur et a mesure ne fonctionne plus, il est en entier directement.
+- J'ai un second player qui pop dans le niveau au début, quand je reviens après le mini jeu, c'est ce fameux qui est possess je sais pas pourquoi.
 
-Enfants de 6 ans et plus
-
-Le jeu propose une narration linéaire (qui vise à évoluer) simple, des mécaniques accessibles et une atmosphère colorée adaptée aux jeunes joueurs.
-
-
-
-Histoire
-
-Lulu le lapin vit paisiblement dans la forêt de Carottia. Un jour, une sorcière maléfique vola toute la récolte de carottes pour en faire une potion qui va détruire la forêt.
-
-Déterminé à sauver son foyer, Lulu se lance dans une quête pleine d'action pour retrouver la sorcière et l'empêcher de détruire la forêt !
-
-
-
-Gameplay:
-
-Les Aventures de Lulu le Lapin s'inspire du classique jeu de l'oie avec une progression linéaire sur un plateau de cases. Le joueur lance un dé pour avancer et découvre l'histoire case après case.
+- J'ai réussi au moins a sauvegarder l'état des cases dans la gameinstance pour que quand je revienne dans le premier niveau 
+après le mini jeu, elles ne se réactivent pas.
+- Cache cache fonctionnel très basique, L'IA galère quand même à nous repérer même si des fois on est sous son nez.
 
 
-
-Mécaniques Principales:
-
-Système de Dé:
-
-Lancez le dé pour avancer de 1 case.
-
-Certaines case révèlent une partie de l'histoire ou une interaction
-
-
-
-Système d'Énergie:
-
-Chaque lancer de dé coûte de l'énergie
-
-Complétez des quêtes pour récupérer de l'énergie
-
-Gérez votre énergie pour progresser dans l'aventure
-
-
-
-Dialogues et PNJ:
-
-Rencontrez des personnages attachants (le vieux sage, l'agriculteur...)
-
-Découvrez l'histoire à travers des dialogues immersifs
-
-Acceptez des quêtes pour débloquer de nouvelles zones
-
-
-
-Exploration Progressive:
-
-Débloquez de nouvelles cases en accomplissant des quêtes
-
-Explorez plusieurs décors tout au long de l'aventure
-
-
-
-Cases Spéciales
-
-Cases Luciole : révèlent des zones cachées
-
-Cases Quête : proposent des missions à accomplir
-
-Cases Dialogue : font avancer la narration
-
-Cases Transition : changent de décors pour de nouveaux environnements
-
-
-
-Objectif du Jeu:
-
-Aidez Lulu à accomplir des quêtes, récupérez de l'énergie et retrouvez la sorcière maléfique pour sauver la forêt et récupérer les précieuses carottes !
-
-Bonne aventure dans la forêt de Carottia !
-
-PS(Unity): Suite à un appel important survenu lors du dernier cours j'ai demandé à Ludovic de me donner son projet. Si il y a des pushs de Ludovic ce sont les anciens, je n'ai pas du tout repris son travail, juste mis à jour par rapport à la fin du cours. Si vous avez besoin de précision par rapport à cela on peut en discuter. Bon courage !
-
+Note (version1)
+Suite à un appel important lors du dernier cours, le projet de Ludovic a été récupéré pour la suite. 
+Les anciens pushs sur le dépôt sont les siens. Le travail repris correspond uniquement à la mise à jour effectuée à partir de la fin du cours.

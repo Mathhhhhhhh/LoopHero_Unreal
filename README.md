@@ -10,8 +10,8 @@ Le joueur avance case par case sur un plateau, lance un dé, rencontre des perso
 pour progresser dans l'histoire.
 
 >> Cache-Cache dans la forêt
-Les règles du cache cahce, un décompte pour aller se cacher, l'IA ne bouge pas, puis quand le décompte arrive à 0, 
-l'IA à 30 secondes pour nous trouver
+Les règles du cache cache: un décompte pour aller se cacher, l'IA ne bouge pas, puis quand le décompte arrive à 0, 
+l'IA a 30 secondes pour nous trouver
 
 In Game:
 - Bugs je ne comprends pas pourquoi ca ne marche pas je suis resté bloqué beaucoup de temps dessus, 
